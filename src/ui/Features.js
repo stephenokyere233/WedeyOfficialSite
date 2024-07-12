@@ -1,0 +1,110 @@
+import { Link } from "react-router-dom";
+import Contact from "./Contact";
+
+const Features = () => {
+  return (
+    <div>
+      <Link to="/contact">Contact</Link>
+      Welcome to features
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <h1>Heyyy</h1>
+      <Contact />
+    </div>
+  );
+};
+
+export default Features;

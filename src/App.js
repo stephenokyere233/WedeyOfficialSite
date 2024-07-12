@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import HomePage from "./ui/Homepage";
+import AppLayout from "./ui/AppLayout";
+import About from "./ui/About";
+import Aos from "aos";
+import { useEffect } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1000,
+      easing: "linear",
+      once: false,
+      startEvent: "scroll",
+    });
+  }, []);
+
+  const router = createBrowserRouter([
+    {
+      element: <AppLayout />,
+      children: [
+        {
+          path: "/",
+          element: <HomePage />,
+        },
+
+        {
+          path: "/about",
+          element: <About />,
+        },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
+};
 
 export default App;
