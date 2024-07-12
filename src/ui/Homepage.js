@@ -15,8 +15,8 @@ const HomePage = () => {
         <NavMediaLogos />
       </div>
 
-      <div className="flex items-center space-x-10 mt-28 overflow-x-hidden">
-        <div className="w-[510px] space-y-10 ml-10">
+      <div className="flex items-center space-x-10 mt-16 overflow-x-hidden">
+        <div className="w-[510px] space-y-6 ml-16 py-auto ">
           <span>
             <TextRotator />
           </span>
@@ -29,10 +29,12 @@ const HomePage = () => {
             we shop your market list live & instantly deliver to you same day
           </p>
           <div className="ml-1.5">
-            <Downloader />
+            <span className="mb-28">
+              <Downloader />
+            </span>
           </div>
         </div>
-        <div className="mr-16">
+        <div className="mr-16 mt-10">
           <img src="/hero.png" alt="hero" />
         </div>
       </div>
