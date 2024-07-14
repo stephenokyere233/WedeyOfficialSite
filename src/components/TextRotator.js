@@ -34,10 +34,6 @@ const TextRotator = () => {
         }, 200);
         return () => clearInterval(timeout);
       }
-
-      // const timer = setInterval(() => {
-
-      // }, 2000);
     },
     [letterIndex, textIndex, displayedText]
   );
