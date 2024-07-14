@@ -1,6 +1,5 @@
 import Downloader from "../Downloader";
-
-import NavMediaLogos from "../NavMediaLogos";
+import SocialMediaLogos from "../SocialMediaLogos";
 import WedeyLogo from "../WedeyLogo";
 import Contact from "./Contact";
 import PageNav from "./PageNav";
@@ -11,7 +10,7 @@ const About = () => {
       <div className="h-20 flex items-center justify-between fixed top-0 left-0 z-50 w-screen bg-white mb-36 ">
         <WedeyLogo />
         <PageNav />
-        <NavMediaLogos />
+        <SocialMediaLogos isNav />
       </div>
       {/* <div
         className="bg-contain bg-center h-60 w-full mt-[px]"
@@ -20,9 +19,7 @@ const About = () => {
 
       <div className="flex items-center mt-32">
         <div className="ml-20">
-          <h3 className="font-bold text-lg text-red-500 mb-1 ml-1.5">
-            About Us
-          </h3>
+          <h3 className="font-bold text-lg text-red-500 mb-1 ml-1.5">About Us</h3>
           <h1 className="text-[32px] font-bold mb-5">
             Making Item Delivery From The
             <br /> Market To Your Doorstep A Reality
@@ -30,8 +27,8 @@ const About = () => {
           <p className="text-lg w-[600px] mb-5">
             As your representatives at major local markets across the country,
             <br />
-            our sole aim is to provide you with premium services from buying,
-            packaging and delivering your items from the your market to you.
+            our sole aim is to provide you with premium services from buying, packaging
+            and delivering your items from the your market to you.
             <br />
             With the WeDey App your wish will be a reality
           </p>
@@ -78,41 +75,27 @@ const About = () => {
           </div>
 
           <div className="w-[650px] bg-stone-100 h-32 flex items-center px-5 py-[68px] rounded-lg mb-5">
-            <img
-              src="/payment-2.svg"
-              alt="Payment"
-              className="h-12 pl-5 pr-5"
-            />
+            <img src="/payment-2.svg" alt="Payment" className="h-12 pl-5 pr-5" />
             <p className="text-lg tracking-wide">
-              <span className="text-lg font-bold text-blue-800">
-                Unbeatable Prices:
-              </span>
-              &nbsp; With our agents at various markets, we do not just buy but
-              we bargain on your behalf to get your item at an affordable price
+              <span className="text-lg font-bold text-blue-800">Unbeatable Prices:</span>
+              &nbsp; With our agents at various markets, we do not just buy but we bargain
+              on your behalf to get your item at an affordable price
             </p>
           </div>
           <div className="w-[650px] bg-stone-100 h-28 flex items-center px-5 py-[68px] rounded-lg mb-5">
-            <img
-              src="/delivery.svg"
-              alt="Delivery"
-              className="h-12 pl-5 pr-5"
-            />
+            <img src="/delivery.svg" alt="Delivery" className="h-12 pl-5 pr-5" />
             <p className="text-lg tracking-wide">
-              <span className="text-lg font-bold text-blue-800">
-                Secured Payment:
-              </span>
-              &nbsp;Transactions made on the app are fast and secured.Also, our
-              app supports multiple payments options
+              <span className="text-lg font-bold text-blue-800">Secured Payment:</span>
+              &nbsp;Transactions made on the app are fast and secured.Also, our app
+              supports multiple payments options
             </p>
           </div>
           <div className="w-[650px] bg-stone-100 h-32 flex items-center px-5 py-[68px] rounded-lg">
             <img src="/price.svg" alt="Payment" className="h-12 pl-5 pr-5" />
             <p className="text-lg tracking-wide">
-              <span className="text-lg font-bold text-blue-800">
-                Instant delivery:
-              </span>
-              &nbsp; This feature allows you to communicate with our errand
-              representative at the market
+              <span className="text-lg font-bold text-blue-800">Instant delivery:</span>
+              &nbsp; This feature allows you to communicate with our errand representative
+              at the market
             </p>
           </div>
         </div>
@@ -131,33 +114,27 @@ const About = () => {
             <div className="ml-20">
               <img src="/list.svg" alt="list" className="h-12 mt-5" />
               <p className="w-72 text-lg tracking-wide h-10">
-                <span className="text-lg font-bold text-nowrap">
-                  Product categories
-                </span>
+                <span className="text-lg font-bold text-nowrap">Product categories</span>
                 <br />
-                We have a wide range of items grouped into different catogories
-                including furniture, electronics, fashion etc
+                We have a wide range of items grouped into different catogories including
+                furniture, electronics, fashion etc
               </p>
             </div>
 
             <div className="ml-20 ">
               <img src="/chat.png" alt="list" className="h-12 mt-5" />
               <p className="w-72 text-lg tracking-wide h-10">
-                <span className="text-lg font-bold text-nowrap">
-                  Instant messaging
-                </span>
+                <span className="text-lg font-bold text-nowrap">Instant messaging</span>
                 <br />
-                This feature allows you to communicate with our errand
-                representative at the market
+                This feature allows you to communicate with our errand representative at
+                the market
               </p>
             </div>
 
             <div className="ml-20">
               <img src="/livetrack.png" alt="list" className="h-12 mt-5" />
               <p className="w-80 text-lg tracking-wide h-10">
-                <span className="text-lg font-bold text-nowrap">
-                  Live tracking
-                </span>
+                <span className="text-lg font-bold text-nowrap">Live tracking</span>
                 <br />
                 You can track your order in real-time
               </p>
@@ -172,9 +149,7 @@ const About = () => {
             <div className="ml-20">
               <img src="/cart.png" alt="list" className="h-12 mt-5" />
               <p className="w-72 text-lg tracking-wide h-10">
-                <span className="text-lg font-bold text-nowrap">
-                  Shopping cart
-                </span>
+                <span className="text-lg font-bold text-nowrap">Shopping cart</span>
                 <br />
                 Keep records of items to purchase before cashing-out
               </p>
@@ -185,20 +160,17 @@ const About = () => {
               <p className="w-72 text-lg tracking-wide h-10">
                 <span className="text-lg font-bold text-nowrap">Payment</span>
                 <br />
-                You can pay diretly on the app with credit cards, debit cards or
-                mobile money
+                You can pay diretly on the app with credit cards, debit cards or mobile
+                money
               </p>
             </div>
 
             <div className="ml-20">
               <img src="/review.png" alt="list" className="h-12 mt-5" />
               <p className="w-80 text-lg tracking-wide h-10">
-                <span className="text-lg font-bold text-nowrap">
-                  Ratings and Review
-                </span>
+                <span className="text-lg font-bold text-nowrap">Ratings and Review</span>
                 <br />
-                Find and leave reviews on products, errand representatives or
-                services
+                Find and leave reviews on products, errand representatives or services
               </p>
             </div>
           </div>

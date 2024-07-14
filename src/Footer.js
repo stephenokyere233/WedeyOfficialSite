@@ -1,6 +1,6 @@
-import SocialMediaLogos from "./SocialMediaLogos";
 import WedeyFooterLogo from "./ui/WedeyFooterLogo";
 import HomeLinks from "./ui/HomeLinks";
+import SocialMediaLogos from "./SocialMediaLogos";
 
 const Footer = () => {
   return (
