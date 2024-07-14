@@ -1,7 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import HomePage from "./ui/Homepage";
-import AppLayout from "./ui/AppLayout";
-import About from "./ui/About";
+import HomePage from "./pages/Homepage";
+import AppLayout from "./layout/AppLayout";
+import About from "./pages/About";
 import Aos from "aos";
 import { useEffect } from "react";
 

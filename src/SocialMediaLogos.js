@@ -25,7 +25,7 @@ const SocialMediaLogos = ({ isNav = false }) => {
   ];
 
   return (
-    <div className="flex justify-center items-center space-x-8 mr-24">
+    <div className="flex justify-center items-center gap-8">
       {links.map((social, index) => (
         <Link
           to={social.link}

@@ -1,15 +1,8 @@
 import { Link } from "react-router-dom";
 
-const HomeLinks = () => {
-  function handleClick(e) {
-    e.stopPropagation();
-  }
-
+const FooterNav = () => {
   return (
-    <span
-      onClick={handleClick}
-      className="flex items-center flex-row text-white space-x-10 font-bold "
-    >
+    <nav className="flex items-center flex-row text-white space-x-10 font-bold ">
       <Link
         to="/#"
         data-aos="fade-right"
@@ -29,15 +22,15 @@ const HomeLinks = () => {
       </Link>
 
       <a
-        href="#contact"
+        href="/about#features"
         className="hover:transform hover:-translate-y-1 hover:text-blue-600 transition-all duration-200  hover:underline"
         data-aos="fade-left"
         data-aos-duration="300"
       >
-        Contact
+        Features
       </a>
-    </span>
+    </nav>
   );
 };
 
-export default HomeLinks;
+export default FooterNav;
