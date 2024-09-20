@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { cn } from "../utils/cn";
 
 const SocialMediaLogos = ({ isNav = false }) => {
   const links = [
@@ -6,21 +7,25 @@ const SocialMediaLogos = ({ isNav = false }) => {
       name: "Facebook",
       link: "/",
       icon: "/fb.svg",
+      color: "hover:bg-blue-700",
     },
     {
       name: "Twitter",
       link: "/",
       icon: "/twitter.svg",
+      color: "hover:bg-blue-500",
     },
     {
       name: "Instagram",
       link: "/",
       icon: "/instagram.svg",
+      color: "hover:bg-red-500",
     },
     {
       name: "Whatsapp",
       link: "/",
       icon: "/whatsapp.svg",
+      color: "hover:bg-green-500",
     },
   ];
 
@@ -37,9 +42,10 @@ const SocialMediaLogos = ({ isNav = false }) => {
           <img
             src={social.icon}
             alt={`${social.name} Logo`}
-            className={`h-10 mt-3 space-x-6 bg-[#00000038] transition-colors duration-300 p-2 rounded-lg hover:${getHoverColor(
-              social.name
-            )} border-none`}
+            className={cn(
+              social.color,
+              "h-10 mt-3 space-x-6 bg-[#00000038] transition-colors duration-300 p-2 rounded-lg border-none"
+            )}
           />
         </Link>
       ))}

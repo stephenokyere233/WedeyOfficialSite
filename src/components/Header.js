@@ -1,9 +1,9 @@
 import React from "react";
 import WedeyLogo from "./WedeyLogo";
 import PageNav from "./PageNav";
-import SocialMediaLogos from "../SocialMediaLogos";
 import WidthConstraint from "../layout/WidthConstraint";
 import { cn } from "../utils/cn";
+import SocialMediaLogos from "./SocialMediaLogos";
 
 const Header = ({ showNav = false }) => {
   return (

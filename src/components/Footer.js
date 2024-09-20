@@ -1,7 +1,7 @@
-import SocialMediaLogos from "../SocialMediaLogos";
 import WidthConstraint from "../layout/WidthConstraint";
 import WedeyLogo from "./WedeyLogo";
 import FooterNav from "./FooterNav";
+import SocialMediaLogos from "./SocialMediaLogos";
 
 const Footer = () => {
   return (
